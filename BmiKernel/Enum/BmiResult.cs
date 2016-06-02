@@ -1,4 +1,6 @@
-﻿namespace BmiKernel.Enum
+﻿using System.ComponentModel;
+
+namespace BmiKernel.Enum
 {
     /// <summary>
     /// BMI結果狀態
@@ -8,16 +10,13 @@
         /// <summary>
         /// 正常
         /// </summary>
+        [Description("正常")]
         Normal,
-        
-        /// <summary>
-        /// 過重
-        /// </summary>
+
+        [Description("太胖")]
         Fat,
-        
-        /// <summary>
-        /// 過輕
-        /// </summary>
+
+        [Description("太瘦")]
         Thin
     }
 }
