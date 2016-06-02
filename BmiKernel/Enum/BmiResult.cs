@@ -7,9 +7,6 @@ namespace BmiKernel.Enum
     /// </summary>
     public enum BmiStatus
     {
-        /// <summary>
-        /// 正常
-        /// </summary>
         [Description("正常")]
         Normal,
 
