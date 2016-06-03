@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckHelper.cs" />
-    <Compile Include="Enum\BmiResult.cs" />
+    <Compile Include="Enum\BmiStatus.cs" />
     <Compile Include="Enum\BmiResultExtension.cs" />
     <Compile Include="Interface\IBmiCheckable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
